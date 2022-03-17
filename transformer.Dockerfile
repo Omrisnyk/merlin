@@ -37,7 +37,7 @@ RUN go build -o bin/transformer \
 # ============================================================
 # Build stage 2: Copy binary
 # ============================================================
-FROM alpine:3.12
+FROM alpine:3.13.7
 
 COPY --from=go-builder /src/api/bin/transformer /usr/bin/transformer
 
