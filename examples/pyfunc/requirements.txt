@@ -1,4 +1,4 @@
 scikit-learn==0.23.1
-xgboost==0.82
+xgboost==1.7.0
 merlin-sdk
 numpy
