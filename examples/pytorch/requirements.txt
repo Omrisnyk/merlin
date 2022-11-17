@@ -1,3 +1,5 @@
 sklearn
 torch
 merlin-sdk
+mlflow>=1.23.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
