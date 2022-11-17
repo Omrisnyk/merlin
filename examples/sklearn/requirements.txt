@@ -1,3 +1,5 @@
 scikit-learn==0.20.3
 merlin-sdk
 joblib>=0.13.0
+mlflow>=1.23.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
