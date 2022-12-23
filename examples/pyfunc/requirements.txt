@@ -2,3 +2,4 @@ scikit-learn==0.23.1
 xgboost==0.82
 merlin-sdk
 numpy
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
