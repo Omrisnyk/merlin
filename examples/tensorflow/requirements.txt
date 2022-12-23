@@ -1,3 +1,4 @@
 merlin-sdk
 tensorflow==1.15
 pandas
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
