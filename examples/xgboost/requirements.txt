@@ -1,3 +1,4 @@
 scikit-learn
 xgboost
 merlin-sdk
+mlflow>=2.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
