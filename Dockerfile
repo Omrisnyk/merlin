@@ -39,7 +39,7 @@ RUN yarn run build
 # ============================================================
 # Build stage 3: Copy binary and config file
 # ============================================================
-FROM alpine:3.12
+FROM alpine:3.18.3
 
 COPY --from=go-builder /src/api/bin/merlin_api /usr/bin/merlin_api
 COPY --from=go-builder /src/api/db-migrations ./db-migrations
