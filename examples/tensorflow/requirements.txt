@@ -1,3 +1,4 @@
 merlin-sdk
 tensorflow==1.15
 pandas
+mlflow>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
