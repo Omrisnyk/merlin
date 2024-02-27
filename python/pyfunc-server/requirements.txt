@@ -5,5 +5,5 @@ mlflow==1.6.0
 cloudpickle==1.2.2
 prometheus_client==0.7.1
 uvloop>=0.15.2
-orjson==2.6.8
+orjson==3.9.15
 merlin-sdk
