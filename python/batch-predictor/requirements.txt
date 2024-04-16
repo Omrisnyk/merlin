@@ -1,6 +1,7 @@
 pyspark==2.4.5
-mlflow==1.6.0
+mlflow==2.10.0
 cloudpickle==1.2.2
 pyarrow==0.14.1
 protobuf>=3.0
 file:../sdk#egg=merlin-sdk
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
