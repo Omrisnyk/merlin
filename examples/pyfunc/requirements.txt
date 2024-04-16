@@ -2,3 +2,5 @@ scikit-learn==0.23.1
 xgboost==0.82
 merlin-sdk
 numpy
+mlflow>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
