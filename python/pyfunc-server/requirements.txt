@@ -1,7 +1,7 @@
 kfserving==0.2.1.1
 argparse>=1.4.0
 numpy >= 1.8.2
-mlflow==1.6.0
+mlflow==2.11.3
 cloudpickle==1.2.2
 prometheus_client==0.7.1
 uvloop>=0.15.2
