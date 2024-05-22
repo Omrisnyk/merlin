@@ -4,3 +4,4 @@ cloudpickle==1.2.2
 pyarrow==0.14.1
 protobuf>=3.0
 file:../sdk#egg=merlin-sdk
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
