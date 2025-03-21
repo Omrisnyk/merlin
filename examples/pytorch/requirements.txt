@@ -1,3 +1,4 @@
 sklearn
 torch
 merlin-sdk
+mlflow>=2.17.0rc0 # not directly required, pinned by Snyk to avoid a vulnerability
